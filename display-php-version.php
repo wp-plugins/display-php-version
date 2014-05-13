@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Display PHP Version
-Description: Displays the current PHP version in the "Right Now" admin dashboard widget.
-Version: 1.0
+Description: Displays the current PHP version in the "At a Glance" admin dashboard widget.
+Version: 1.1
 Author: David Gwyer
 Author URI: http://www.presscoders.com
 */
@@ -28,7 +28,7 @@ function pc_add_php_version() {
 	?>
 	<script language="javascript">
 		jQuery(document).ready(function($) {
-			$("#wp-version-message .b").after("<span>, with PHP <b><?php echo phpversion(); ?></b></span>");
+			$("#wp-version-message").after("<p>PHP version: <b><?php echo phpversion(); ?></b></p>");
 		});
 	</script>
 	<?php
