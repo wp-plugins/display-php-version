@@ -3,7 +3,7 @@ Contributors: dgwyer
 Tags: admin, dashboard, widget, display, PHP, version
 Requires at least: 2.7
 Tested up to: 3.9.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Displays the current PHP version in the "At a Glance" admin dashboard widget.
 
@@ -30,6 +30,10 @@ Instructions for installing the Display PHP Version Plugin.
 1. Show the current PHP version.
 
 == Changelog ==
+
+*1.2 update*
+
+* Added more reliable way to output PHP version number.
 
 *1.1 update*
 
